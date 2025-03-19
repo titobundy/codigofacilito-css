@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card - Deepseek IA</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0; /* Fondo para visualizar mejor el centrado */
+      }
+
+      .card {
+        background: white;
+        border-radius: 12px;
+        max-width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+        margin: 20px; /* Espacio en dispositivos móviles */
+      }
+
+      .card-image {
+        height: 180px;
+        background: #f5f5f5; /* Color temporal */
+        margin-bottom: 20px;
+      }
+
+      .card-content {
+        padding: 0 24px 24px;
+      }
+
+      .card h2 {
+        margin: 0 0 16px 0;
+        font-size: 1.5rem;
+        color: #333;
+      }
+
+      .card p {
+        color: #666;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 24px;
+      }
+
+      .card a {
+        display: inline-block;
+        text-decoration: none;
+        color: #0066cc;
+        font-weight: bold;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: color 0.3s ease;
+      }
+
+      .card a:hover {
+        color: #0052a3;
+      }
+
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-image">
+        <img src="img/tenis.jpg" alt="Nike red shoe" />
+      </div>
+      <div class="card-content">
+        <h2>Producto #1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quae
+          repudiandae.<br />
+          Animi, voluptates deleniti laudantium quas placcat eius officia earum
+          amet rerum maiores temporibus explicabo perferendis eaque id sunt?
+        </p>
+        <a href="#">Quiero saber más</a>
+      </div>
+    </div>
+  </body>
+</html>
