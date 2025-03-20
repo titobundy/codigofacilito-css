@@ -41,6 +41,11 @@
     font-weight: 700;
     margin-bottom: 1rem;
   }
+
+  .main {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
   
   /* Header & Navigation */
   .header {
